@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6400E9D230B1EB5002DCCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400E9C230B1EB5002DCCF7 /* AppDelegate.swift */; };
+		E6400E9F230B1EB5002DCCF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400E9E230B1EB5002DCCF7 /* SceneDelegate.swift */; };
+		E6400EA1230B1EB5002DCCF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EA0230B1EB5002DCCF7 /* ContentView.swift */; };
+		E6400EA3230B1EB7002DCCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6400EA2230B1EB7002DCCF7 /* Assets.xcassets */; };
+		E6400EA6230B1EB7002DCCF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6400EA5230B1EB7002DCCF7 /* Preview Assets.xcassets */; };
+		E6400EA9230B1EB7002DCCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */; };
+		E6400EB4230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EB3230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift */; };
+		E6400EBF230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EBE230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6400EB0230B1EB7002DCCF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6400E91230B1EB5002DCCF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6400E98230B1EB5002DCCF7;
+			remoteInfo = "dojo-swift-ui1";
+		};
+		E6400EBB230B1EB7002DCCF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6400E91230B1EB5002DCCF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6400E98230B1EB5002DCCF7;
+			remoteInfo = "dojo-swift-ui1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6400E99230B1EB5002DCCF7 /* dojo-swift-ui1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-swift-ui1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6400E9C230B1EB5002DCCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6400E9E230B1EB5002DCCF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6400EA0230B1EB5002DCCF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6400EA2230B1EB7002DCCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6400EA5230B1EB7002DCCF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6400EA8230B1EB7002DCCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6400EAA230B1EB7002DCCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6400EAF230B1EB7002DCCF7 /* dojo-swift-ui1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-swift-ui1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6400EB3230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_swift_ui1Tests.swift; sourceTree = "<group>"; };
+		E6400EB5230B1EB7002DCCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6400EBA230B1EB7002DCCF7 /* dojo-swift-ui1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-swift-ui1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6400EBE230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_swift_ui1UITests.swift; sourceTree = "<group>"; };
+		E6400EC0230B1EB7002DCCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6400E96230B1EB5002DCCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EAC230B1EB7002DCCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EB7230B1EB7002DCCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6400E90230B1EB5002DCCF7 = {
+			isa = PBXGroup;
+			children = (
+				E6400E9B230B1EB5002DCCF7 /* dojo-swift-ui1 */,
+				E6400EB2230B1EB7002DCCF7 /* dojo-swift-ui1Tests */,
+				E6400EBD230B1EB7002DCCF7 /* dojo-swift-ui1UITests */,
+				E6400E9A230B1EB5002DCCF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6400E9A230B1EB5002DCCF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6400E99230B1EB5002DCCF7 /* dojo-swift-ui1.app */,
+				E6400EAF230B1EB7002DCCF7 /* dojo-swift-ui1Tests.xctest */,
+				E6400EBA230B1EB7002DCCF7 /* dojo-swift-ui1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6400E9B230B1EB5002DCCF7 /* dojo-swift-ui1 */ = {
+			isa = PBXGroup;
+			children = (
+				E6400E9C230B1EB5002DCCF7 /* AppDelegate.swift */,
+				E6400E9E230B1EB5002DCCF7 /* SceneDelegate.swift */,
+				E6400EA0230B1EB5002DCCF7 /* ContentView.swift */,
+				E6400EA2230B1EB7002DCCF7 /* Assets.xcassets */,
+				E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */,
+				E6400EAA230B1EB7002DCCF7 /* Info.plist */,
+				E6400EA4230B1EB7002DCCF7 /* Preview Content */,
+			);
+			path = "dojo-swift-ui1";
+			sourceTree = "<group>";
+		};
+		E6400EA4230B1EB7002DCCF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6400EA5230B1EB7002DCCF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6400EB2230B1EB7002DCCF7 /* dojo-swift-ui1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E6400EB3230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift */,
+				E6400EB5230B1EB7002DCCF7 /* Info.plist */,
+			);
+			path = "dojo-swift-ui1Tests";
+			sourceTree = "<group>";
+		};
+		E6400EBD230B1EB7002DCCF7 /* dojo-swift-ui1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6400EBE230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift */,
+				E6400EC0230B1EB7002DCCF7 /* Info.plist */,
+			);
+			path = "dojo-swift-ui1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6400E98230B1EB5002DCCF7 /* dojo-swift-ui1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6400EC3230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1" */;
+			buildPhases = (
+				E6400E95230B1EB5002DCCF7 /* Sources */,
+				E6400E96230B1EB5002DCCF7 /* Frameworks */,
+				E6400E97230B1EB5002DCCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-swift-ui1";
+			productName = "dojo-swift-ui1";
+			productReference = E6400E99230B1EB5002DCCF7 /* dojo-swift-ui1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6400EAE230B1EB7002DCCF7 /* dojo-swift-ui1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6400EC6230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1Tests" */;
+			buildPhases = (
+				E6400EAB230B1EB7002DCCF7 /* Sources */,
+				E6400EAC230B1EB7002DCCF7 /* Frameworks */,
+				E6400EAD230B1EB7002DCCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6400EB1230B1EB7002DCCF7 /* PBXTargetDependency */,
+			);
+			name = "dojo-swift-ui1Tests";
+			productName = "dojo-swift-ui1Tests";
+			productReference = E6400EAF230B1EB7002DCCF7 /* dojo-swift-ui1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6400EB9230B1EB7002DCCF7 /* dojo-swift-ui1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6400EC9230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1UITests" */;
+			buildPhases = (
+				E6400EB6230B1EB7002DCCF7 /* Sources */,
+				E6400EB7230B1EB7002DCCF7 /* Frameworks */,
+				E6400EB8230B1EB7002DCCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6400EBC230B1EB7002DCCF7 /* PBXTargetDependency */,
+			);
+			name = "dojo-swift-ui1UITests";
+			productName = "dojo-swift-ui1UITests";
+			productReference = E6400EBA230B1EB7002DCCF7 /* dojo-swift-ui1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6400E91230B1EB5002DCCF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Dennis Merli";
+				TargetAttributes = {
+					E6400E98230B1EB5002DCCF7 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E6400EAE230B1EB7002DCCF7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E6400E98230B1EB5002DCCF7;
+					};
+					E6400EB9230B1EB7002DCCF7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E6400E98230B1EB5002DCCF7;
+					};
+				};
+			};
+			buildConfigurationList = E6400E94230B1EB5002DCCF7 /* Build configuration list for PBXProject "dojo-swift-ui1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6400E90230B1EB5002DCCF7;
+			productRefGroup = E6400E9A230B1EB5002DCCF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6400E98230B1EB5002DCCF7 /* dojo-swift-ui1 */,
+				E6400EAE230B1EB7002DCCF7 /* dojo-swift-ui1Tests */,
+				E6400EB9230B1EB7002DCCF7 /* dojo-swift-ui1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6400E97230B1EB5002DCCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6400EA9230B1EB7002DCCF7 /* LaunchScreen.storyboard in Resources */,
+				E6400EA6230B1EB7002DCCF7 /* Preview Assets.xcassets in Resources */,
+				E6400EA3230B1EB7002DCCF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EAD230B1EB7002DCCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EB8230B1EB7002DCCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6400E95230B1EB5002DCCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6400E9D230B1EB5002DCCF7 /* AppDelegate.swift in Sources */,
+				E6400E9F230B1EB5002DCCF7 /* SceneDelegate.swift in Sources */,
+				E6400EA1230B1EB5002DCCF7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EAB230B1EB7002DCCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6400EB4230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6400EB6230B1EB7002DCCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6400EBF230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6400EB1230B1EB7002DCCF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6400E98230B1EB5002DCCF7 /* dojo-swift-ui1 */;
+			targetProxy = E6400EB0230B1EB7002DCCF7 /* PBXContainerItemProxy */;
+		};
+		E6400EBC230B1EB7002DCCF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6400E98230B1EB5002DCCF7 /* dojo-swift-ui1 */;
+			targetProxy = E6400EBB230B1EB7002DCCF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6400EA8230B1EB7002DCCF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6400EC1230B1EB7002DCCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6400EC2230B1EB7002DCCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6400EC4230B1EB7002DCCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "dojo-swift-ui1/Preview\\ Content";
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dojo-swift-ui1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6400EC5230B1EB7002DCCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "dojo-swift-ui1/Preview\\ Content";
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "dojo-swift-ui1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6400EC7230B1EB7002DCCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = "dojo-swift-ui1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-swift-ui1.app/dojo-swift-ui1";
+			};
+			name = Debug;
+		};
+		E6400EC8230B1EB7002DCCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = "dojo-swift-ui1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dojo-swift-ui1.app/dojo-swift-ui1";
+			};
+			name = Release;
+		};
+		E6400ECA230B1EB7002DCCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = "dojo-swift-ui1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dojo-swift-ui1";
+			};
+			name = Debug;
+		};
+		E6400ECB230B1EB7002DCCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGLW8Y2AXF;
+				INFOPLIST_FILE = "dojo-swift-ui1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aisdigital.dojo-swift-ui1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dojo-swift-ui1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6400E94230B1EB5002DCCF7 /* Build configuration list for PBXProject "dojo-swift-ui1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6400EC1230B1EB7002DCCF7 /* Debug */,
+				E6400EC2230B1EB7002DCCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6400EC3230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6400EC4230B1EB7002DCCF7 /* Debug */,
+				E6400EC5230B1EB7002DCCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6400EC6230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6400EC7230B1EB7002DCCF7 /* Debug */,
+				E6400EC8230B1EB7002DCCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6400EC9230B1EB7002DCCF7 /* Build configuration list for PBXNativeTarget "dojo-swift-ui1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6400ECA230B1EB7002DCCF7 /* Debug */,
+				E6400ECB230B1EB7002DCCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6400E91230B1EB5002DCCF7 /* Project object */;
+}
