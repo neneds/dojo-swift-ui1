@@ -9,8 +9,37 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State var email: String = ""
+	@State var password: String = ""
+	
     var body: some View {
-        Text("Hello World")
+		ZStack {
+			Image("background")
+				.resizable()
+				.aspectRatio(contentMode: .fill)
+				.padding(.top)
+			VStack {
+				Text("Email")
+					.bold()
+				TextField("", text: $email)
+					.frame(width: 250, height: 30, alignment: .center)
+					.textFieldStyle(RoundedBorderTextFieldStyle())
+				Text("Password").bold()
+				TextField("", text: $password)
+					.frame(width: 250, height: 30, alignment: .center)
+					.textFieldStyle(RoundedBorderTextFieldStyle())
+				Button( action: {
+					//action
+				}) {
+					Text("Login")
+						.font(.body)
+						.foregroundColor(Color.white)
+						.padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
+				}
+				.background(Color.blue)
+				.cornerRadius(10)
+			}
+		}
     }
 }
 
