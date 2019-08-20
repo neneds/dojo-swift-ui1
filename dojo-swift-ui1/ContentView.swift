@@ -9,37 +9,37 @@
 import SwiftUI
 
 struct ContentView: View {
-	@State var email: String = ""
-	@State var password: String = ""
-	
+    @State var email: String = ""
+    @State var password: String = ""
+    
     var body: some View {
-		ZStack {
-			Image("background")
-				.resizable()
-				.aspectRatio(contentMode: .fill)
-				.padding(.top)
-			VStack {
-				Text("Email")
-					.bold()
-				TextField("", text: $email)
-					.frame(width: 250, height: 30, alignment: .center)
-					.textFieldStyle(RoundedBorderTextFieldStyle())
-				Text("Password").bold()
-				TextField("", text: $password)
-					.frame(width: 250, height: 30, alignment: .center)
-					.textFieldStyle(RoundedBorderTextFieldStyle())
-				Button( action: {
-					//action
-				}) {
-					Text("Login")
-						.font(.body)
-						.foregroundColor(Color.white)
-						.padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
-				}
-				.background(Color.blue)
-				.cornerRadius(10)
-			}
-		}
+        ZStack {
+            Image("background")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Group {
+                    TextField("Enter your e-mail", text: $email)
+                        .textContentType(.emailAddress)
+                    SecureField("Enter your password", text: $password)
+                }
+                .frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                
+                Button( action: {
+                    //action
+                }) {
+                    Text("Login")
+                        .font(.body)
+                        .foregroundColor(Color.white)
+                        .padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
+                }
+                .background(Color("buttonColor"))
+                .cornerRadius(10)
+            }
+        }
     }
 }
 
