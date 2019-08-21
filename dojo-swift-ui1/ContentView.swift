@@ -9,26 +9,35 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var email: String
-    @State var password: String
+    @State var email: String = ""
+    @State var password: String = ""
     
     var body: some View {
         ZStack {
-            Rectangle()
-                .foregroundColor(.clear)
-                .background(LinearGradient(gradient: Gradient(colors: [Color("pinkff00cc"), Color("blue333399")]), startPoint: .leading, endPoint: .trailing))
+            Image("background")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
+            
             VStack {
                 Group {
-                    TextField("Email", text: $email)
-                    SecureField("Password", text: $password)
-                    
-                }.frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
-                    .textContentType(.emailAddress)
-                    .background(Color.black.opacity(0.6))
-                    .cornerRadius(10)
-                    .multilineTextAlignment(.center)
-                .zIndex(1)
+                    TextField("Enter your e-mail", text: $email)
+                        .textContentType(.emailAddress)
+                    SecureField("Enter your password", text: $password)
+                }
+                .frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                
+                Button( action: {
+                    //action
+                }) {
+                    Text("Login")
+                        .font(.body)
+                        .foregroundColor(Color.white)
+                        .padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
+                }
+                .background(Color("buttonColor"))
+                .cornerRadius(10)
             }
         }
     }
