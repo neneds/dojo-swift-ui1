@@ -16,17 +16,17 @@ struct ContentView: View {
 		NavigationView {
 			ZStack {
 				Image("background")
-					   .resizable()
-					   .aspectRatio(contentMode: .fill)
-					   .edgesIgnoringSafeArea(.all)
+					.resizable()
+					.aspectRatio(contentMode: .fill)
+					.edgesIgnoringSafeArea(.all)
 				VStack {
 					Group {
-					   TextField("Enter your e-mail", text: $email)
-						   .textContentType(.emailAddress)
-					   SecureField("Enter your password", text: $password)
-				   }
-				   .frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
-				   .textFieldStyle(RoundedBorderTextFieldStyle())
+						TextField("Enter your e-mail", text: $email)
+							.textContentType(.emailAddress)
+						SecureField("Enter your password", text: $password)
+					}
+					.frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
+					.textFieldStyle(RoundedBorderTextFieldStyle())
 					
 					NavigationLink(destination: NewView()) {
 						ButtonView()
@@ -40,7 +40,6 @@ struct ContentView: View {
 struct ButtonView: View {
 	var body: some View {
 		Text("Login")
-			//.padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
 			.foregroundColor(Color.white)
 			.frame(width: 200, height: 50, alignment: .center)
 			.background(Color("buttonColor"))
