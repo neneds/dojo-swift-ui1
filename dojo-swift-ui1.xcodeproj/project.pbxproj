@@ -15,6 +15,7 @@
 		E6400EA9230B1EB7002DCCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */; };
 		E6400EB4230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EB3230B1EB7002DCCF7 /* dojo_swift_ui1Tests.swift */; };
 		E6400EBF230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EBE230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift */; };
+		E6C17AB8230E1296007CA3C8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C17AB7230E1296007CA3C8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E6400EBA230B1EB7002DCCF7 /* dojo-swift-ui1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-swift-ui1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6400EBE230B1EB7002DCCF7 /* dojo_swift_ui1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_swift_ui1UITests.swift; sourceTree = "<group>"; };
 		E6400EC0230B1EB7002DCCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C17AB7230E1296007CA3C8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */,
 				E6400EAA230B1EB7002DCCF7 /* Info.plist */,
 				E6400EA4230B1EB7002DCCF7 /* Preview Content */,
+				E6C17AB7230E1296007CA3C8 /* DetailView.swift */,
 			);
 			path = "dojo-swift-ui1";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6400E9D230B1EB5002DCCF7 /* AppDelegate.swift in Sources */,
+				E6C17AB8230E1296007CA3C8 /* DetailView.swift in Sources */,
 				E6400E9F230B1EB5002DCCF7 /* SceneDelegate.swift in Sources */,
 				E6400EA1230B1EB5002DCCF7 /* ContentView.swift in Sources */,
 			);

@@ -13,31 +13,30 @@ struct ContentView: View {
     @State var password: String = ""
     
     var body: some View {
-        ZStack {
-            Image("background")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.all)
-            
-            VStack {
-                Group {
-                    TextField("Enter your e-mail", text: $email)
-                        .textContentType(.emailAddress)
-                    SecureField("Enter your password", text: $password)
-                }
-                .frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+        NavigationView {
+            ZStack {
+                Image("background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(.all)
                 
-                Button( action: {
-                    //action
-                }) {
-                    Text("Login")
-                        .font(.body)
-                        .foregroundColor(Color.white)
-                        .padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
+                VStack {
+                    Group {
+                        TextField("Enter your e-mail", text: $email)
+                            .textContentType(.emailAddress)
+                        SecureField("Enter your password", text: $password)
+                    }
+                    .frame(width: UIScreen.main.bounds.size.width - 80, height: 41, alignment: .center)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    
+                    NavigationLink(destination: DetailView(), label: {
+                        Text("Login")
+                            .font(.body)
+                            .foregroundColor(Color.white)
+                            .padding(EdgeInsets(top: 10, leading: 50, bottom: 10, trailing: 50))
+                    }).background(Color("buttonColor"))
+                      .cornerRadius(10)
                 }
-                .background(Color("buttonColor"))
-                .cornerRadius(10)
             }
         }
     }
