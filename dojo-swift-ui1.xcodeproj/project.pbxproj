@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B9E24C230CE20E00FEE46A /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9E24B230CE20E00FEE46A /* NewView.swift */; };
 		E6400E9D230B1EB5002DCCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400E9C230B1EB5002DCCF7 /* AppDelegate.swift */; };
 		E6400E9F230B1EB5002DCCF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400E9E230B1EB5002DCCF7 /* SceneDelegate.swift */; };
 		E6400EA1230B1EB5002DCCF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6400EA0230B1EB5002DCCF7 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45B9E24B230CE20E00FEE46A /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 		E6400E99230B1EB5002DCCF7 /* dojo-swift-ui1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-swift-ui1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6400E9C230B1EB5002DCCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6400E9E230B1EB5002DCCF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E6400EA7230B1EB7002DCCF7 /* LaunchScreen.storyboard */,
 				E6400EAA230B1EB7002DCCF7 /* Info.plist */,
 				E6400EA4230B1EB7002DCCF7 /* Preview Content */,
+				45B9E24B230CE20E00FEE46A /* NewView.swift */,
 			);
 			path = "dojo-swift-ui1";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6400E9D230B1EB5002DCCF7 /* AppDelegate.swift in Sources */,
+				45B9E24C230CE20E00FEE46A /* NewView.swift in Sources */,
 				E6400E9F230B1EB5002DCCF7 /* SceneDelegate.swift in Sources */,
 				E6400EA1230B1EB5002DCCF7 /* ContentView.swift in Sources */,
 			);
